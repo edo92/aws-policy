@@ -79,13 +79,3 @@ export class Policy {
     await installer.check();
   }
 }
-
-const run = async () => {
-  const policy = new Policy({
-    name: "test",
-    description: "test",
-    path: "../policies/deployment.policy.json",
-  });
-  await policy.create();
-};
-run();
