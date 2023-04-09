@@ -1,0 +1,20 @@
+{
+  "name": "cdk-policy",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-iam": "^3.309.0",
+    "@types/command-exists": "^1.2.0",
+    "chalk": "^4.1.2",
+    "command-exists": "^1.2.9",
+    "loading-cli": "^1.1.0"
+  }
+}

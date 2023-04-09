@@ -1,0 +1,4 @@
+package-lock.joson
+node_modules
+.DS_Store
+dist
