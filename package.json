@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
