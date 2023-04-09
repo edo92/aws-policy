@@ -35,6 +35,8 @@ export class Installer {
 
     rl.question(this.message(), (name) => {
       if (name.toLocaleLowerCase() !== "y") {
+        rl.close();
+        console.log(chalk.yellow("Canceled"));
         return;
       }
 
