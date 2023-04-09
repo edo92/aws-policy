@@ -2,12 +2,6 @@
   "name": "cdk-policy",
   "version": "0.1.0",
   "main": "dist/index.js",
-  "files": [
-    "./dist",
-    "./package.json",
-    "./LICENSE",
-    "./README.md"
-  ],
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build"
